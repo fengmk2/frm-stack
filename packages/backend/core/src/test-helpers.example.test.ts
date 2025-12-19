@@ -4,7 +4,7 @@
  * This shows the recommended way to write tests using the shared database helper.
  */
 
-import { describe, it, expect, beforeAll, beforeEach } from "vitest";
+import { describe, it, expect, beforeAll, beforeEach } from "@voidzero-dev/vite-plus/test";
 import type { Kysely } from "kysely";
 import type { DB as DatabaseSchema } from "#schema";
 import { getSharedDatabaseHelper, resetSharedDatabase, createTestUser } from "#test-helpers";

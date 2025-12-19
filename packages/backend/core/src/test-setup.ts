@@ -5,7 +5,7 @@
  * It initializes the shared database container and cleans it up after all tests.
  */
 
-import { afterAll, beforeAll } from "vitest";
+import { afterAll, beforeAll } from "@voidzero-dev/vite-plus/test";
 import { cleanupSharedDatabaseHelper, getSharedDatabaseHelper } from "./test-helpers.ts";
 
 beforeAll(async () => {

@@ -27,7 +27,8 @@
     "@tailwindcss/vite": "catalog:",
     "@yourcompany/configs": "workspace:*",
     "storybook": "catalog:",
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "peerDependencies": {
     "@storybook/addon-a11y": "catalog:",

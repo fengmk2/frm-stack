@@ -52,12 +52,23 @@ catalog:
   tw-animate-css: ^1.3.7
   typescript: ^5.9.2
   uuid: 13.0.0
-  vite: ^7.1.3
+  vite: npm:@voidzero-dev/vite-plus-core@latest
   vite-plugin-top-level-await: 1.6.0
   vite-tsconfig-paths: ^5.1.4
-  vitest: ^4.0.0
+  vitest: npm:@voidzero-dev/vite-plus-test@latest
   zod: 4.1.13
   zustand: ^5.0.8
+  '@voidzero-dev/vite-plus': latest
 
 onlyBuiltDependencies:
   - '@swc/core'
+overrides:
+  vite: 'catalog:'
+  vitest: 'catalog:'
+peerDependencyRules:
+  allowAny:
+    - vite
+    - vitest
+  allowedVersions:
+    vite: '*'
+    vitest: '*'

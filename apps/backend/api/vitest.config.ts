@@ -1,4 +1,4 @@
-import { defineConfig, mergeConfig, type Plugin } from "vitest/config";
+import { defineConfig, mergeConfig, type Plugin } from "@voidzero-dev/vite-plus";
 import { fileURLToPath } from "node:url";
 import { dirname, resolve } from "node:path";
 import { createSharedTestConfig } from "@yourcompany/backend-core/vitest.config.shared";

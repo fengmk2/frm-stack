@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi, beforeAll } from "vitest";
+import { describe, it, expect, beforeEach, vi, beforeAll } from "@voidzero-dev/vite-plus/test";
 import type { DB } from "@yourcompany/backend-core/db";
 import type { Logger } from "@yourcompany/backend-core/log";
 import { createTestUser, getSharedDatabaseHelper, resetSharedDatabase } from "@yourcompany/backend-core/test-helpers";
