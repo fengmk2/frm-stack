@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "@voidzero-dev/vite-plus/test";
 import { createLogger, type Logger, type LoggerConfig } from "#log";
 
 vi.mock("pino", () => ({

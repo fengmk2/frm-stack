@@ -1,4 +1,4 @@
-import { describe, it, expect, beforeEach, vi, beforeAll } from "vitest";
+import { describe, it, expect, beforeEach, vi, beforeAll } from "@voidzero-dev/vite-plus/test";
 import { UserNotAuthorizedError, UserService } from "#services/user";
 import type { DB } from "@yourcompany/backend-core/db";
 import type { Logger } from "@yourcompany/backend-core/log";

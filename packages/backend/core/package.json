@@ -15,9 +15,9 @@
     "lint": "biome lint --fix ./src",
     "format:check": "biome format ./src",
     "format": "biome format --write ./src",
-    "test": "vitest run",
-    "test:watch": "vitest --watch",
-    "coverage": "vitest run --coverage"
+    "test": "vite test run",
+    "test:watch": "vite test --watch",
+    "coverage": "vite test run --coverage"
   },
   "dependencies": {
     "better-auth": "catalog:",
