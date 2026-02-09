@@ -2,8 +2,11 @@
   "extends": "@yourcompany/configs/tsconfig.react.node",
   "compilerOptions": {
     "rootDir": ".",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "allowImportingTsExtensions": true
   },
-  "include": ["storybook/**/*.ts", "storybook/**/*.d.ts"]
+  "include": [
+    "storybook/**/*.ts",
+    "storybook/**/*.d.ts"
+  ]
 }
-

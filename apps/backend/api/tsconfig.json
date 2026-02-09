@@ -3,11 +3,21 @@
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": "src",
-    "types": ["node"],
+    "types": [
+      "node"
+    ],
     "paths": {
-      "#*": ["./src/*"]
-    }
+      "#*": [
+        "./src/*"
+      ]
+    },
+    "allowImportingTsExtensions": true
   },
-  "include": ["src"],
-  "exclude": ["dist", "node_modules"]
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
 }
